@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+  <div class="head">
+    <h1>
+      
+        <a href="../Home Webpage/webpage.html">
+      <img src="../img/xyz.jpg" height="50px" width="100px" align="center"></a>RTS SCHOOL
+      </a>
+     
+    </h1>
+
+  </div>
+
+  <div class="nav">
+    <ul class="main-menu">
+      <li><a href="../Home Webpage/webpage.html">Home</a></li>
+        
+      <li>About
+
+              <ul class="sub-menu">
+                <li><a href="../Home Webpage/information.html">Information</a></li>
+              </ul>
+
+      </li>
+      <li>Academics
+        <ul class="sub-menu">
+                <li><a href="../Home Webpage/academicRegulation.html">Academic Regulation</a></li>
+        <li><a href="../Home Webpage/courseTuition.html">Courses Tution Fee</a></li>
+          <li><a href="../Home Webpage/academicCalender.html">Acadamic Calender</a></li>
+              </ul>
+      <li>Administration
+        <ul class="sub-menu">
+                <li><a href="../Home Webpage/vc.html">The Principle</a></li>
+                <li><a href="../Home Webpage/chairman.html">The Chairman</a></li>
+                <li><a href="../Home Webpage/founder.html">The Founder</a></li>
+              </ul>
+
+      </li>
+
+      <li>Faculties
+        <ul class="sub-menu">
+                <li><a href="../Home Webpage/engineering.html">Science</a></li>
+                <li><a href="../Home Webpage/socialArts.html">Social Arts</a></li>
+                <li><a href="../Home Webpage/business.html">Business</a></li>
+              </ul>
+      </li>
+      <li>Admission
+        <ul class="sub-menu">
+                <li><a href="../Home Webpage/admission.html">Admission Information</a></li>
+                
+              </ul>
+       </li>
+       <li><a href="../Home Webpage/contact.html">Contact</a></li>
+        
+       </li>
+       
+       </li>
+       <li><a href="../Login/Login.html">Login</a></li>
+        
+       </li>
+       </li>
+       <li><a href="../Login/StudentReg.php">Registration</a></li>
+        
+       </li>
+    </ul>
+  </div>
+
+
+  <style type="text/css">
+   body{
+    background:#ccc;
+   }
+      *{
+        padding: 1px;
+        margin: 1px;
+
+      }
+
+      
+     .head{
+      background: white;
+      color: RGB(225,66,0);
+      padding: 0px 0px;
+      font-family: sans-serif;
+      font-size: 30px;
+      border-top:10px solid #37f; 
+     }
+
+      .nav{
+        padding: 10px 0px;
+        background: #37f;
+        text-align: center;
+      }
+
+         .main-menu>li{
+          display: inline-block;
+          width: 200px;
+          padding: 10px 0px;
+          margin-left: 10px;
+          text-align: center;
+          color: white;
+          font-size: 20px;
+          border-left: 1px solid white;
+          transition: .4s;
+          cursor: pointer;
+          box-sizing: border-box;
+         }
+         .foot{
+          display: inline-block;
+          width: 300px;
+          padding: 10px 0px;
+          background-color:  #0080ff
+          text-align: center;
+          color: blue;
+          border: 1px solid blue;
+          box-sizing: border-box;
+
+         }
+         .main-menu li:hover .sub-menu{
+              display: block;
+         }
+ 
+         .sub-menu{
+          display: none;
+          position: absolute;
+          padding: 0px;
+          margin-top: 30px;
+          margin-left: -10px; 
+          float: left;
+          width: 230px; 
+          text-align: left;
+          box-sizing: border-box;
+          border: 5px solid white;
+          box-shadow: 1px 1px 1px grey;
+
+          
+       
+         }
+         a{  
+          text-decoration: none; 
+         }
+
+         .sub-menu:before{
+                 content:"";
+                 width: 0px;
+                 height:0px;
+                 border-left:20px solid transparent;
+                 border-right:20px solid transparent;
+                 border-bottom:30px solid white;
+                 position: absolute;
+                 margin:-30px 0px 0px 60px;
+               
+}
+
+         .sub-menu >li{
+          list-style-type: none;
+          padding: 10px;
+          font-size: 20px;
+          background: #37f;
+          width: 200px;
+
+         }
+     .main-menu>li:hover, .sub-menu>li:hover{
+          background: #35c;
+         }
+ 
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+fieldset{
+  border: 1px solid red;
+  width: 400px;
+}
+.table{
+  width:50%;
+  margin: 50px auto;
+}
+</style>
+
+<div class="table">
+   <fieldset style="width: 100%" >
+    <legend align="center"><h1>INFORMATION</h1></legend>
+     <h1>Over View of RST School-Bangladesh</h1><br>
+     <p>RST School Bangladesh is a government approved private school founded in 2001 by RST company. The school is an independent organization with its own Board of Trustees.<br>
+      <h2>Vision</h2><br>RST SCHOOL BANGLADESH envisions promoting professionals and excellent leadership catering to the technological progress and development needs of the country.<br>
+      <h2>Mission</h2><br>RST SCHOOL BANGLADESH is committed to provide quality and excellent computer-based academic programs responsive to the emerging challenges of the time. It is dedicated to nurture and produce competent world class professional imbued with strong sense of ethical values ready to face the competitive world of arts, business, science, social science and technology.</p>
+   </fieldset>
+</div>
+
+<footer align="center">
+      <div class="foot">
+         <img src="../img/xyz.jpg" height="50px" width="100px" align="center"><br>
+         <h2>Founded in 2001</h2><br>
+         <h1>RTS School</h1><br>
+         <h3>408/1, Kuratoli, Khilkhet,<br>Dhaka 1229, Bangladesh<br>info@rts.edu</h3>
+
+
+      </div>
+
+</body>
+</html>
